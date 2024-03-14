@@ -1,0 +1,27 @@
+{% set query = craft.entries()
+  .section('blog')
+  .limit(2) %}
+
+{% paginate query as pageInfo, pageEntries %}
+
+{% for entry in pageEntries %}
+
+{% set image = entry.featureImage.one() %}
+
+  <article>
+    <h1>{{ entry.title }}</h1>
+    <div class="date">
+    <time datetime="{{ entry.postDate | atom }}">{{ entry.postDate | date }}</time>
+    </div>
+    <div class="summary">{{ entry.summary }}</div>
+    {% if image %}
+        <div class="thumbnail">
+        {{ image.getImg('thumbnail') }}
+        </div>
+      {% endif %}
+      <a href="{{ entry.url }}">Continue Reading</a>
+  </article>
+{% endfor %}
+
+{% if pageInfo.prevUrl %}<a href="{{ pageInfo.prevUrl }}">Previous Page</a>{% endif %}
+{% if pageInfo.nextUrl %}<a href="{{ pageInfo.nextUrl }}">Next Page</a>{% endif %}

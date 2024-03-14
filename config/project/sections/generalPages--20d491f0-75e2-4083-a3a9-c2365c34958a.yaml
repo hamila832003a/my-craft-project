@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: generalPages
+name: 'General Pages'
+propagationMethod: all
+siteSettings:
+  f58ae7aa-9b55-4ed4-8f80-5cc7196791c1: # Test
+    enabledByDefault: true
+    hasUrls: true
+    template: general
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 3b257b8e-dd49-4e75-bc3f-63d0250eec66
+type: structure

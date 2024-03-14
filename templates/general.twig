@@ -1,0 +1,13 @@
+{% extends "_layout" %}
+
+{% set body_classes = "inner" %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ entry.title}}</h1>
+    <div>
+        {{ entry.richText}}
+    </div>
+    
+</div>
+{% endblock %}

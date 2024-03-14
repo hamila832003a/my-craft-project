@@ -1,0 +1,78 @@
+field: 8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2 # Flexible Content
+fieldLayouts:
+  276c2b51-908f-4fd6-bfd4-d8f1febf2326:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 17a714e7-b782-446d-8fd0-88194674d861 # Block1 Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a623508-d032-4564-b446-ff336a936ef1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3b89b01b-6466-472c-96b6-9e004255796b # Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41ed2941-0ddb-43a6-a8d3-41e4f6728a26
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bfca6d6f-4cb7-4ebc-8454-14c7016b614c
+        userCondition: null
+fields:
+  3b89b01b-6466-472c-96b6-9e004255796b: # Copy
+    columnSuffix: nklrfppd
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: null
+    name: Copy
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  17a714e7-b782-446d-8fd0-88194674d861: # Block1 Title
+    columnSuffix: ycnrgkxq
+    contentColumnType: text
+    fieldGroup: null
+    handle: block1Title
+    instructions: null
+    name: 'Block1 Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: block1
+name: Block1
+sortOrder: 1

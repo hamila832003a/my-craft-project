@@ -1,0 +1,12 @@
+columnSuffix: ozjsnfcs
+contentColumnType: char(7)
+fieldGroup: 0e994035-575e-4e1c-8bb3-653d29289588 # Theme
+handle: backgroundColor
+instructions: null
+name: 'Background Color'
+searchable: false
+settings:
+  defaultColor: '#ffffff'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

@@ -1,0 +1,73 @@
+dateModified: 1710385311
+email:
+  fromEmail: hamila832003@gmail.com
+  fromName: Test
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    0e994035-575e-4e1c-8bb3-653d29289588: Theme # Theme
+    0f97f974-e467-4b69-8517-a0926b0e9e13: Color # Color
+    01e3bca3-1c13-45b2-b071-7542eca83665: 'Hero Image' # Hero Image
+    2e1c1af8-9c30-43e4-b217-d7a1b95e92fc: Theme # Theme
+    3b89b01b-6466-472c-96b6-9e004255796b: Copy # Copy
+    4d996d55-003b-4075-9787-2ebfb1eb4358: 'General Pages' # General Pages
+    4fa9a481-7a66-4022-8477-1d13c675acd5: Header # Header
+    7df69a92-4f52-4458-a156-40f95c71286c: 'Home Page' # Home Page
+    8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2: 'Flexible Content' # Flexible Content
+    15aecb61-314d-4c70-adcd-074b17d648ce: 'Link Text' # Link Text
+    17a714e7-b782-446d-8fd0-88194674d861: 'Block1 Title' # Block1 Title
+    17de000b-d1c9-4b18-89bc-05856ab472b9: Topics # Topics
+    19ce8711-4f29-45cf-90d1-e03e6ffcc8ce: Home # Home
+    20d491f0-75e2-4083-a3a9-c2365c34958a: 'General Pages' # General Pages
+    021d4b47-bc7f-4d3f-857a-637e21ee42f4: 'Link Destination' # Link Destination
+    42caa027-4021-4d69-9c12-60df8e7b73c9: 'Block2 Title' # Block2 Title
+    51b49ed2-f5da-4379-a7c1-2c5d2d23c0c5: Footer # Footer
+    86a29f75-3eb8-42b4-92ab-f71671173a66: Block2 # Block2
+    628b25c7-5a2a-4b1d-bc74-50f61c6c802e: Copy # Copy
+    649b71b8-1ee7-4215-9706-cd89e1c7847d: 'Home Page Left Right Image' # Home Page Left Right Image
+    775f1c8e-4135-4d59-b362-a425abb5dca3: 'Public Schema' # Public Schema
+    997c3c06-c3a0-405a-8124-81f9be8bd6aa: Link # Link
+    71232de7-51a6-445b-b0c2-1d96f10a4ed5: Block1 # Block1
+    581665f5-b39a-4e5c-bdbc-ed16d26cf7d7: 'Hero Title' # Hero Title
+    892343d4-fa88-44a7-a3dc-b1f85ed09d14: 'Background Color' # Background Color
+    57770204-9d83-4761-96da-717e25a676a4: Test # Test
+    92391549-451d-48f6-bfc8-a69f14bc11ce: 'Home Page Left Right Align' # Home Page Left Right Align
+    bb17fd16-c37c-4754-bb83-b9f6f6de89fc: 'Nav Links' # Nav Links
+    c81d90a3-af61-4fcd-9b0e-9e386abd15a0: 'Home Page Left Right Copy' # Home Page Left Right Copy
+    cb7c5995-bc64-48d8-82df-be48dfe24f54: Common # Common
+    d2bd35fe-f728-44f0-8dc6-f489c7d0dfac: Home # Home
+    d3699ba7-b37b-472a-97b2-57de705f93ce: Images # Images
+    d67225f0-12b0-4fa7-b7fe-f166a2184a96: 'Home Page Left Right Title' # Home Page Left Right Title
+    ea633514-acd9-4e88-a61a-cd5981e869f2: 'Rich Text' # Rich Text
+    f2b65d79-5eed-4159-b174-6f4d268e81d8: Thumbnail # Thumbnail
+    f9c060b6-2943-474e-beca-5c6f7b27c42a: 'Site Info' # Site Info
+    f58ae7aa-9b55-4ed4-8f80-5cc7196791c1: Test # Test
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+system:
+  edition: solo
+  live: true
+  name: Test
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

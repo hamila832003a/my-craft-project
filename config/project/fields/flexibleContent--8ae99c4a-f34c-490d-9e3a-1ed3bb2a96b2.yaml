@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: cb7c5995-bc64-48d8-82df-be48dfe24f54 # Common
+handle: flexibleContent
+instructions: null
+name: 'Flexible Content'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_flexiblecontent}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

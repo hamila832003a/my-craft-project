@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid slice" width="120px" height="49px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1440 594" style="enable-background:new 0 0 1440 594;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000120539528399969981620000008282189799312294073_);}
+	.st1{clip-path:url(#SVGID_00000092430222486251161830000002562951106739235245_);}
+	.st2{fill:url(#SVGID_00000002365500700488438780000017997480348475197620_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="1440" height="594"></rect>
+	</defs>
+	<clipPath id="SVGID_00000057848000879908017550000005069832016826900106_">
+		<use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000057848000879908017550000005069832016826900106_);">
+		<g>
+			<defs>
+				
+					<rect id="SVGID_00000010279033878864083170000012769831180499992219_" x="-382.4" y="-1742.2" transform="matrix(0.2409 -0.9705 0.9705 0.2409 401.4736 1754.439)" width="3409.4" height="4725.5"></rect>
+			</defs>
+			<clipPath id="SVGID_00000147189341167548256960000010795393682791531935_">
+				<use xlink:href="#SVGID_00000010279033878864083170000012769831180499992219_" style="overflow:visible;"></use>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_00000147189341167548256960000010795393682791531935_);">
+				
+					<linearGradient id="SVGID_00000072262774077522940480000017018663139287892101_" gradientUnits="userSpaceOnUse" x1="1138.4635" y1="701.2694" x2="1218.9257" y2="260.2654" gradientTransform="matrix(1 0 0 -1 -4.302139e-04 595.3198)">
+					<stop offset="2.103300e-02" style="stop-color:#2364F6"></stop>
+					<stop offset="1" style="stop-color:#061E51"></stop>
+				</linearGradient>
+				<path style="fill:url(#SVGID_00000072262774077522940480000017018663139287892101_);" d="M3721.8,64.7      c193.1,613-150.1,1238-766.5,1396c-328.2,84.1-667.7,18.8-942.5-153.1l0,0.1C1199.5,798.6,763.8,1000,410.7,1569.7l-0.4-1.2      c-104.6,169.4-272.6,300.1-485.6,354.7c-454.9,116.6-939.2-155.7-1081.7-608c-142.5-452.4,110.7-913.7,565.6-1030.2      c213-54.6,432-23.1,619.8,71.4l0,0c632.4,317.2,1120.1,280.6,1515.2-538.2l0,0.1c133.6-276.6,384.3-493.2,712.5-577.3      C2872.5-917.1,3528.7-548.3,3721.8,64.7"></path>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

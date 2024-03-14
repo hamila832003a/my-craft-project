@@ -1,0 +1,12 @@
+columnSuffix: rzxodpzb
+contentColumnType: char(7)
+fieldGroup: 0e994035-575e-4e1c-8bb3-653d29289588 # Theme
+handle: color
+instructions: null
+name: Color
+searchable: false
+settings:
+  defaultColor: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ siteName }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <style>
+    body {
+      background-color: {{ theme.backgroundColor }};
+      color: {{ theme.color }};
+    }
+  </style>
+
+    {% do craft.app.view.registerCssFile('@web/styles.css') %}
+
+    {% set navSegment = craft.app.request.getSegment(1) %}
+
+  </head>
+  <body class="{{ body_classes|default('home-page')}} {{navSegment}}">
+  
+    <header>
+        <div class="container">
+            <a class="logo" href="{{ siteUrl }}" alt={{siteName}}>
+                <img src="../images/paymentus-logo.svg" />
+            </a>
+
+            <nav>
+                <ul>
+                {% for link in header.navLinks.all() %}
+
+                    {% set destination = link.linkDestination.one() %}
+                    <li>
+                        <a href="{{destination.url}}" class="{{ navSegment == '' ? 'active' : 'inactive' }}">{{link.linkText}}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+   {% block content %}
+
+
+    {% endblock %}
+
+    <footer>
+      {{ footer.richText }}
+    </footer>
+  </body>
+</html>

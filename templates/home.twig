@@ -1,0 +1,46 @@
+{% extends "_layout" %}
+
+{% set body_classes = "homepage" %}
+{% js "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" %}
+{% js "@web/javascript/index.js" %}
+{% block content %}
+
+{{body_classes}}
+
+<div class="overlay-main">
+    <div class="overlay overlay01"></div>
+    <div class="overlay overlay02"></div>
+    <div class="overlay overlay03"></div>
+</div>
+<div class="wrapper">
+{% set image = entry.heroImage.one() %}
+
+<section class="hero" style="background-image: url('{{ image.url }}');">
+    <div class="container">
+        <h1>{{ entry.heroTitle }}</h1>
+    </div>
+</section>
+
+{% set leftRightImage = entry.homePageLeftRightImage.one() %}
+
+<section class="homePageLeftRight {{ entry.homePageLeftRightAlign }}">
+
+<div class="container">
+
+    <div>
+        <h2>{{ entry.homePageLeftRightTitle }}</h2>
+        <p>{{ entry.homePageLeftRightCopy }}</p>
+    </div>
+
+    <div>
+        <img src="{{ leftRightImage.url }}" /> 
+    </div>
+
+</div>
+
+</section>
+</div>
+{% endblock %}
+
+
+

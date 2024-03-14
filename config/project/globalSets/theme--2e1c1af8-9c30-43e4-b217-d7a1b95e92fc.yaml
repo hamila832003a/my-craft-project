@@ -1,0 +1,36 @@
+fieldLayouts:
+  81f5816b-a65f-42a1-9c77-97fbbb525f37:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 892343d4-fa88-44a7-a3dc-b1f85ed09d14 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38618dd4-0031-4132-9a45-e0904ee2b874
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0f97f974-e467-4b69-8517-a0926b0e9e13 # Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a41d82bc-b0db-471c-906a-e0e3128b7c1d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Theme Attributes'
+        uid: 2fd2b93f-f908-4e67-8fde-13d07695857d
+        userCondition: null
+handle: theme
+name: Theme
+sortOrder: 2
