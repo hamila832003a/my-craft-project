@@ -1,0 +1,9 @@
+
+web/.DS_Store
+vendor/.DS_Store
+templates/.DS_Store
+config/.DS_Store
+.DS_Store
+.ddev/traefik/.DS_Store
+.ddev/commands/.DS_Store
+.ddev/.DS_Store
