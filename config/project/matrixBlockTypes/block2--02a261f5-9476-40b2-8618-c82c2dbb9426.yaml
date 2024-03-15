@@ -1,45 +1,45 @@
-field: 8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2 # Flexible Content
+field: cbc7d1f8-d1e1-4e73-900f-4446c434467a # Flexible Content Test
 fieldLayouts:
-  dcc21363-9a6e-454f-a476-0d0d0ca70557:
+  74046e26-83b1-4c05-b5b7-a0401f688af5:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 42caa027-4021-4d69-9c12-60df8e7b73c9 # Block2 Title
+            fieldUid: d91ee4fe-03e7-4894-b1bd-5748a2757cea # Headline
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 782bb1f2-c028-4c1e-b5d8-ff8c1e8fcf67
+            uid: bd7b40ba-dd22-460d-868b-3e7ba4a6c1bb
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 628b25c7-5a2a-4b1d-bc74-50f61c6c802e # Copy
+            fieldUid: 5c3d9ee1-fa50-4a1a-b014-fe2cc2a8e715 # Copy
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 67f973aa-85db-4aad-8d83-d0711aba9d10
+            uid: 38fbefe8-e3e6-4062-a716-98763ef8a8f3
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 9b8dce3a-a14f-483f-bd1d-35d12f0d2690
+        uid: ba2732b7-3708-462e-9794-110caebda7c4
         userCondition: null
 fields:
-  42caa027-4021-4d69-9c12-60df8e7b73c9: # Block2 Title
-    columnSuffix: jhdvhcns
+  5c3d9ee1-fa50-4a1a-b014-fe2cc2a8e715: # Copy
+    columnSuffix: xjzmrlcs
     contentColumnType: text
     fieldGroup: null
-    handle: block2Title
+    handle: copy
     instructions: null
-    name: 'Block2 Title'
+    name: Copy
     searchable: false
     settings:
       byteLimit: null
@@ -53,13 +53,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  628b25c7-5a2a-4b1d-bc74-50f61c6c802e: # Copy
-    columnSuffix: qbgrznex
+  d91ee4fe-03e7-4894-b1bd-5748a2757cea: # Headline
+    columnSuffix: mwdauzdb
     contentColumnType: text
     fieldGroup: null
-    handle: copy
+    handle: headline
     instructions: null
-    name: Copy
+    name: Headline
     searchable: false
     settings:
       byteLimit: null

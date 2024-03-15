@@ -21,3 +21,13 @@ const timeline = gsap.timeline({
 //     stagger: 0.02,
 // }, "+=0")
 ;
+
+
+
+gsap.fromTo(".circleRing", 
+  {rotation: 0},
+  {rotation: 360,
+   repeat: -1,
+   ease: "none",
+   duration: 6
+  });

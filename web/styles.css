@@ -11,9 +11,6 @@
     --type-technical: monospace;
 }
 
-/* Font from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* Containers */
 
 body {
@@ -29,7 +26,11 @@ body {
     color: #ffffff;
 }
 
-main {}
+h1, h2, h3, h4, h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 footer {
     font-size: 0.75em;
@@ -249,6 +250,7 @@ article p, article h1, article .summary, article .date {
 .hero {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center bottom;
     min-height: 500px;
     display: flex;
     align-items: center;
@@ -256,11 +258,13 @@ article p, article h1, article .summary, article .date {
 
 .hero h1 {
     font-size: 36px;
-    color: #ffffff;
+    color: #DCF1FF;
     text-align: center;
 }
 .homePageLeftRight {
     background-color: #061E51;
+    padding: 1em 0;
+
 }
 .homePageLeftRight.imageRight .container {
     flex-direction: row-reverse;
@@ -269,13 +273,72 @@ article p, article h1, article .summary, article .date {
     display: flex;
 }
 
-.homePageLeftRight .container div {
+.homePageLeftRight .container div.content {
     padding: 1em;
     flex: 1;
     color: #ffffff;
 }
 
-.homePageLeftRight .container div h2 {
-    color: #2364F6;
+.homePageLeftRight .container div.content p {
+    padding-bottom: 1em;
+}
+
+.homePageLeftRight .container div.content h2 {
+    color: #DCF1FF;
     text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.animatedContent {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.animatedContent h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.animatedContent div.content {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.circleImageContainer {
+    position:relative
+}
+
+.circleImageContainer img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.circleImageContainer .circleRing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Global */
+
+.cta {
+    background: #2364F6;
+    color: #ffffff;
+    padding: 1em 2em;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background: #215FE9;
 }

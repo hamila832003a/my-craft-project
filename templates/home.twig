@@ -1,17 +1,18 @@
 {% extends "_layout" %}
 
 {% set body_classes = "homepage" %}
-{% js "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" %}
-{% js "@web/javascript/index.js" %}
+    {% js "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" %}
+    {% js "@web/javascript/index.js" %}
 {% block content %}
 
-{{body_classes}}
+{# {{body_classes}} #}
 
 <div class="overlay-main">
     <div class="overlay overlay01"></div>
     <div class="overlay overlay02"></div>
     <div class="overlay overlay03"></div>
 </div>
+
 <div class="wrapper">
 {% set image = entry.heroImage.one() %}
 
@@ -21,7 +22,7 @@
     </div>
 </section>
 
-{% set leftRightImage = entry.homePageLeftRightImage.one() %}
+{# {% set leftRightImage = entry.homePageLeftRightImage.one() %}
 
 <section class="homePageLeftRight {{ entry.homePageLeftRightAlign }}">
 
@@ -38,7 +39,51 @@
 
 </div>
 
-</section>
+</section> #}
+
+
+
+{% for block in entry.flexibleContentHomePage.all() %}
+
+  {% if block.type == "leftRightModule" %}
+
+  {% set leftRightImage = block.image.one() %}
+
+  <section class="homePageLeftRight {{ block.align }}">
+    <div class="container">
+    <div class="content">
+        <h2>{{ block.headline }}</h2>
+        <p>{{ block.copy }}</p>
+        <a class="cta" href="{{ block.ctaUrl }}">{{ block.ctaText }}</a>
+    </div>
+    <div>
+        <div class="circleImageContainer">
+            <img class="circleImage" src="{{ leftRightImage.url }}" alt="" /> 
+            <img class="circleRing" src="../images/ring.png" alt="" />
+        </div>
+    </div>
+    </div>
+  </section>
+
+  {% elseif block.type == "animatedContent" %}
+
+  {% set backgroundImage = block.backgroundImage.one() %}
+
+    <section class="animatedContent {{ block.align }}" style="background-image: url('{{ backgroundImage.url }}');">
+        <div class="container">
+            <div class="content">
+                <h2>{{ block.headline }}</h2>
+                <div class="content">{{ block.copy }}</div>
+                <a class="cta" href="{{ block.ctaUrl }}">{{ block.ctaText }}</a>
+            </div>
+        </div>
+    </section>
+  
+    
+  {% endif %}
+
+{% endfor %}
+
 </div>
 {% endblock %}
 

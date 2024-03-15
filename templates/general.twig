@@ -9,5 +9,17 @@
         {{ entry.richText}}
     </div>
     
+    
 </div>
+
+{% for block in entry.flexibleContentTest.all() %}
+  {% if block.type == "block1" %}
+    <h3>{{ block.headline }}</h3>
+    <p>{{ block.copy }}</p>
+  {% elseif block.type == "block2" %}
+    <h3>{{ block.headline }}</h3>
+    <p>{{ block.copy }}</p>
+  {% endif %}
+{% endfor %}
+
 {% endblock %}

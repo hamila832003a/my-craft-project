@@ -45,72 +45,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2 # Flexible Content
+            fieldUid: cbc7d1f8-d1e1-4e73-900f-4446c434467a # Flexible Content Test
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 00eea1e7-32e7-48cd-94dc-a8e8c6aa80d7
+            uid: 0d476f51-b952-4f9f-a979-ec63af66503a
             userCondition: null
             warning: null
             width: 100
         name: Content
         uid: 74bae685-e077-4384-862b-d3d1ae6eaf0c
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: 92391549-451d-48f6-bfc8-a69f14bc11ce # Home Page Left Right Align
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8854ab84-aff1-4e41-b983-636a93e066ca
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 649b71b8-1ee7-4215-9706-cd89e1c7847d # Home Page Left Right Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 634785a6-a868-424f-a5bc-ed649324200a
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: d67225f0-12b0-4fa7-b7fe-f166a2184a96 # Home Page Left Right Title
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a25fa731-6551-4e71-9816-4e074094b723
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: c81d90a3-af61-4fcd-9b0e-9e386abd15a0 # Home Page Left Right Copy
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3a6a8eb8-2ab0-48c0-9fc3-53ab05b82267
-            userCondition: null
-            warning: null
-            width: 100
-        name: LeftRightImage
-        uid: f5336b42-68a0-42eb-9289-0e02f42a287f
         userCondition: null
 handle: generalPages
 hasTitleField: true

@@ -1,12 +1,12 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: cb7c5995-bc64-48d8-82df-be48dfe24f54 # Common
-handle: flexibleContent
+handle: flexibleContentTest
 instructions: null
-name: 'Flexible Content'
+name: 'Flexible Content Test'
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_flexiblecontent}}'
+  contentTable: '{{%matrixcontent_flexiblecontenttest}}'
   maxBlocks: null
   minBlocks: null
   propagationKeyFormat: null

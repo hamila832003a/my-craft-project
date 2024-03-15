@@ -1,0 +1,196 @@
+field: 8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2 # Flexible Content Home Page
+fieldLayouts:
+  df3b0483-e9fa-4d8a-9638-27a9757774bc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b0857505-9e9f-45b2-9506-a672d60e26ae # Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6bc57aa4-3d28-4e39-812b-de8631eff65d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9de04f40-e324-45be-b679-e03d810134ba # Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 558c44e5-ca57-4762-88ef-8d090ed5314e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e9ec9064-d697-4b51-b19f-c2fe238860e7 # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2800146c-a5f5-4850-b19c-06a4b159ec6c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 889afe97-58bc-4196-94ae-4bfaa6dee91c # CTA URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1415ff71-7bde-4e0f-a607-1102a7bce0cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e531bff2-086e-4075-b96d-87f72f393075 # CTA Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aebeae3a-7468-4b3f-a49a-e3827eede47f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 15126328-3490-4d75-9c98-587b227eb632
+        userCondition: null
+fields:
+  9de04f40-e324-45be-b679-e03d810134ba: # Copy
+    columnSuffix: pcssnztx
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: null
+    name: Copy
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  889afe97-58bc-4196-94ae-4bfaa6dee91c: # CTA URL
+    columnSuffix: vmygejpy
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: ctaUrl
+    instructions: null
+    name: 'CTA URL'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  b0857505-9e9f-45b2-9506-a672d60e26ae: # Headline
+    columnSuffix: qquihnjd
+    contentColumnType: text
+    fieldGroup: null
+    handle: headline
+    instructions: null
+    name: Headline
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e9ec9064-d697-4b51-b19f-c2fe238860e7: # Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: null
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:d3699ba7-b37b-472a-97b2-57de705f93ce' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:d3699ba7-b37b-472a-97b2-57de705f93ce' # Images
+      restrictedLocationSubpath: null
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:d3699ba7-b37b-472a-97b2-57de705f93ce' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e531bff2-086e-4075-b96d-87f72f393075: # CTA Text
+    columnSuffix: izqpfkpk
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaText
+    instructions: null
+    name: 'CTA Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: animatedContent
+name: 'Animated Content'
+sortOrder: 2
