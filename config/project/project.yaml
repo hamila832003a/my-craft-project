@@ -1,4 +1,4 @@
-dateModified: 1710531268
+dateModified: 1710776892
 email:
   fromEmail: hamila832003@gmail.com
   fromName: Test
@@ -14,20 +14,23 @@ fs:
 meta:
   __names__:
     0e994035-575e-4e1c-8bb3-653d29289588: Theme # Theme
+    00efc088-1144-4830-9f82-2decf12bd237: Slider # Slider
     0f97f974-e467-4b69-8517-a0926b0e9e13: Color # Color
+    0f2057f2-ae8f-4eb5-a6e0-1dbfad513cf3: 'Hover Module Table' # Hover Module Table
     01e3bca3-1c13-45b2-b071-7542eca83665: 'Hero Image' # Hero Image
-    02a261f5-9476-40b2-8618-c82c2dbb9426: Block2 # Block2
     2e1c1af8-9c30-43e4-b217-d7a1b95e92fc: Theme # Theme
     3b46d0fc-aa81-4dc1-80eb-f7d0a1965692: 'CTA Text' # CTA Text
     3b89b01b-6466-472c-96b6-9e004255796b: Copy # Copy
     4d996d55-003b-4075-9787-2ebfb1eb4358: 'General Pages' # General Pages
+    04e5afe5-0399-4235-94a2-8b74f4faeb8a: SliderContainer # SliderContainer
     4fa9a481-7a66-4022-8477-1d13c675acd5: Header # Header
-    5c3d9ee1-fa50-4a1a-b014-fe2cc2a8e715: Copy # Copy
     6b7cc2b3-a7b1-4804-8cd1-a8834704815e: Align # Align
+    7d24d8cb-4747-4bc5-9b16-c24cf6f8d09a: 'Slide Copy' # Slide Copy
     7df69a92-4f52-4458-a156-40f95c71286c: 'Home Page' # Home Page
     8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2: 'Flexible Content Home Page' # Flexible Content Home Page
     9de04f40-e324-45be-b679-e03d810134ba: Copy # Copy
     15aecb61-314d-4c70-adcd-074b17d648ce: 'Link Text' # Link Text
+    16b04d9a-8458-47f1-89a1-6adb8d0e1d24: SliderTable # SliderTable
     17a714e7-b782-446d-8fd0-88194674d861: Headline # Headline
     17de000b-d1c9-4b18-89bc-05856ab472b9: Topics # Topics
     19ce8711-4f29-45cf-90d1-e03e6ffcc8ce: Home # Home
@@ -35,22 +38,26 @@ meta:
     021d4b47-bc7f-4d3f-857a-637e21ee42f4: 'Link Destination' # Link Destination
     51b49ed2-f5da-4379-a7c1-2c5d2d23c0c5: Footer # Footer
     57c2b1c2-3ced-44b2-837b-054fd01924eb: Image # Image
+    86e255b7-97e2-403c-bacf-2880a2febb61: 'Hover Modules' # Hover Modules
+    0117b5aa-f365-49f3-b6dd-d1cdefb094a0: Slide # Slide
+    283c9704-d69c-4196-9e6e-d3037d5da81a: 'Slider Copy' # Slider Copy
     775f1c8e-4135-4d59-b362-a425abb5dca3: 'Public Schema' # Public Schema
     889afe97-58bc-4196-94ae-4bfaa6dee91c: 'CTA URL' # CTA URL
     997c3c06-c3a0-405a-8124-81f9be8bd6aa: Link # Link
     71232de7-51a6-445b-b0c2-1d96f10a4ed5: 'Left Right Module' # Left Right Module
     581665f5-b39a-4e5c-bdbc-ed16d26cf7d7: 'Hero Title' # Hero Title
     892343d4-fa88-44a7-a3dc-b1f85ed09d14: 'Background Color' # Background Color
+    53912735-f1ba-46a4-af5f-a48fc6f58d85: 'Module Title' # Module Title
     57770204-9d83-4761-96da-717e25a676a4: Test # Test
-    a96d7157-2fee-40f5-be22-4393da46eed5: Headline # Headline
+    a2831532-0d6d-4318-a53c-c56c59d0a682: 'Hover Modules Container' # Hover Modules Container
+    aeaed4bf-d719-4ca8-b82b-191817675019: 'Slider Title' # Slider Title
     b0857505-9e9f-45b2-9506-a672d60e26ae: Headline # Headline
-    b5af04ab-ce33-4660-9f86-ae9c13414487: Block1 # Block1
+    b8a1159e-2805-4c3a-8ac5-6edaa553bb9c: Module # Module
     bb17fd16-c37c-4754-bb83-b9f6f6de89fc: 'Nav Links' # Nav Links
-    bfdab4cd-2c3b-47cd-90e0-030896b4ccbb: Copy # Copy
+    c9139736-05b1-4b41-90b2-71d48aac36c5: 'Slide Title' # Slide Title
     cb7c5995-bc64-48d8-82df-be48dfe24f54: Common # Common
     cbc7d1f8-d1e1-4e73-900f-4446c434467a: 'Flexible Content Test' # Flexible Content Test
     d2bd35fe-f728-44f0-8dc6-f489c7d0dfac: Home # Home
-    d91ee4fe-03e7-4894-b1bd-5748a2757cea: Headline # Headline
     d3699ba7-b37b-472a-97b2-57de705f93ce: Images # Images
     e9ec9064-d697-4b51-b19f-c2fe238860e7: 'Background Image' # Background Image
     e531bff2-086e-4075-b96d-87f72f393075: 'CTA Text' # CTA Text

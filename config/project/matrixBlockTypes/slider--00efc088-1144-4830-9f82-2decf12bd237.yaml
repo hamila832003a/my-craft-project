@@ -1,0 +1,64 @@
+field: 8ae99c4a-f34c-490d-9e3a-1ed3bb2a96b2 # Flexible Content Home Page
+fieldLayouts:
+  cedef8e4-5cfb-482c-8082-cf9ee09a8f0a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 16b04d9a-8458-47f1-89a1-6adb8d0e1d24 # SliderTable
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3084449-62a5-42a5-abff-fd83bdd53268
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 117e2d04-187d-4337-acc2-3c7cc5c79b31
+        userCondition: null
+fields:
+  16b04d9a-8458-47f1-89a1-6adb8d0e1d24: # SliderTable
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sliderTable
+    instructions: null
+    name: SliderTable
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1782650830
+      columns:
+        __assoc__:
+          -
+            - aeaed4bf-d719-4ca8-b82b-191817675019 # Slider Title
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 04e5afe5-0399-4235-94a2-8b74f4faeb8a # SliderContainer
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_13_slidertable}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: slider
+name: Slider
+sortOrder: 3

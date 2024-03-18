@@ -1,45 +1,45 @@
-field: cbc7d1f8-d1e1-4e73-900f-4446c434467a # Flexible Content Test
+field: 04e5afe5-0399-4235-94a2-8b74f4faeb8a # SliderContainer
 fieldLayouts:
-  74046e26-83b1-4c05-b5b7-a0401f688af5:
+  dafbcd58-f887-48c2-ab14-5b843287eef6:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: d91ee4fe-03e7-4894-b1bd-5748a2757cea # Headline
+            fieldUid: c9139736-05b1-4b41-90b2-71d48aac36c5 # Slide Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bd7b40ba-dd22-460d-868b-3e7ba4a6c1bb
+            uid: 92de8d37-197f-465e-8045-a9e0dd131a30
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5c3d9ee1-fa50-4a1a-b014-fe2cc2a8e715 # Copy
+            fieldUid: 7d24d8cb-4747-4bc5-9b16-c24cf6f8d09a # Slide Copy
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 38fbefe8-e3e6-4062-a716-98763ef8a8f3
+            uid: 4b100149-624f-4524-ade4-96879138e048
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ba2732b7-3708-462e-9794-110caebda7c4
+        uid: 47ace591-f861-49e0-ab97-1504aa7c6079
         userCondition: null
 fields:
-  5c3d9ee1-fa50-4a1a-b014-fe2cc2a8e715: # Copy
-    columnSuffix: xjzmrlcs
+  7d24d8cb-4747-4bc5-9b16-c24cf6f8d09a: # Slide Copy
+    columnSuffix: zjucrjcr
     contentColumnType: text
     fieldGroup: null
-    handle: copy
+    handle: slideCopy
     instructions: null
-    name: Copy
+    name: 'Slide Copy'
     searchable: false
     settings:
       byteLimit: null
@@ -53,13 +53,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  d91ee4fe-03e7-4894-b1bd-5748a2757cea: # Headline
-    columnSuffix: mwdauzdb
+  c9139736-05b1-4b41-90b2-71d48aac36c5: # Slide Title
+    columnSuffix: ufaihgyz
     contentColumnType: text
     fieldGroup: null
-    handle: headline
+    handle: slideTitle
     instructions: null
-    name: Headline
+    name: 'Slide Title'
     searchable: false
     settings:
       byteLimit: null
@@ -73,6 +73,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: block2
-name: Block2
-sortOrder: 2
+handle: slide
+name: Slide
+sortOrder: 1

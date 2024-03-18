@@ -1,0 +1,57 @@
+field: cbc7d1f8-d1e1-4e73-900f-4446c434467a # Flexible Content Test
+fieldLayouts:
+  e3dd9efb-6cd9-4825-8983-b590ed901b52:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0f2057f2-ae8f-4eb5-a6e0-1dbfad513cf3 # Hover Module Table
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c6e11e3f-72aa-4159-b2e7-225b37894e37
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ec99c9f6-1ba8-41ed-9c43-f20aa44555eb
+        userCondition: null
+fields:
+  0f2057f2-ae8f-4eb5-a6e0-1dbfad513cf3: # Hover Module Table
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: hoverModuleTable
+    instructions: null
+    name: 'Hover Module Table'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 86503784
+      columns:
+        __assoc__:
+          -
+            - a2831532-0d6d-4318-a53c-c56c59d0a682 # Hover Modules Container
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_15_hovermoduletable}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: hoverModules
+name: 'Hover Modules'
+sortOrder: 1

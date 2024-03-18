@@ -1,0 +1,41 @@
+changedFieldIndicator: 445265510
+field: 0f2057f2-ae8f-4eb5-a6e0-1dbfad513cf3 # Hover Module Table
+fieldLayouts:
+  aa43d9df-0dac-497d-b1da-f666a4729acf:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a2831532-0d6d-4318-a53c-c56c59d0a682 # Hover Modules Container
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 581d113f-dc66-48b5-b433-a9e2b004c81a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8c32997e-f2ac-43f5-b2a6-7b356f5679ed
+        userCondition: null
+fields:
+  a2831532-0d6d-4318-a53c-c56c59d0a682: # Hover Modules Container
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: hoverModulesContainer
+    instructions: null
+    name: 'Hover Modules Container'
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_hovermodulescontainer}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

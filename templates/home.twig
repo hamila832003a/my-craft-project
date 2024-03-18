@@ -2,6 +2,7 @@
 
 {% set body_classes = "homepage" %}
     {% js "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" %}
+    {% js "https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js" %}
     {% js "@web/javascript/index.js" %}
 {% block content %}
 
@@ -60,7 +61,6 @@
         <div class="circleImageContainer">
             <img class="circleImage" src="{{ leftRightImage.url }}" alt="" /> 
             <img class="circleRing" src="../images/ring.png" alt="" />
-            test
         </div>
     </div>
     </div>
@@ -80,10 +80,51 @@
         </div>
     </section>
   
-    
-  {% endif %}
+   {% elseif block.type == "slider" %}
+    {% for row in block.sliderTable %}
+    <section class="section-1 section-scroll">
+        <div class="container">
+        <h4>{{row.sliderTitle}}</h4>
+        <p>{{row.sliderTitle}}</p>
+        </div>
+        <div class="container">
+            <div class="slider">
+                {% for matrixBlock in row.sliderContainer.all() %}
+
+                    {% if matrixBlock.type == "slide" %}
+                    <div class="cards">
+                        {{matrixBlock.slideTitle}}
+
+                        {{matrixBlock.slideCopy}}
+                    </div>
+                    {% endif %}
+
+                {% endfor %}
+            </div>
+        </div>
+</section>
+    {% endfor %}
+  {% endif %} 
 
 {% endfor %}
+  <section>
+  
+  This is next section
+    <br />
+This is next section
+    <br />
+This is next section
+    <br />
+This is next section
+    <br />
+This is next section
+    <br />
+This is next section
+    <br />
+This is next section
+    <br />
+  
+  </section>
 
 </div>
 {% endblock %}
